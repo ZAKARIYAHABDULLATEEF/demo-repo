@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ba{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+
+}
+
+nav{
+    
+   
+    
+}
+nav ul{
+   display: flex; 
+   list-style: none;
+   justify-content: flex-end;
+   gap: 2rem;
+   margin-top: -2rem;
+   
+}
+nav ul li{
+    list-style: none;
+    padding-right: 2rem;
+}
+nav ul li a{
+    color: gray;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.logo{
+    padding-top: 2rem;
+}
+.logo img{
+    width: 8rem;
+    height: 2rem;
+}
+select{
+    border-color: red;
+    float: right;
+}
+
+.pro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+.hh{
+    padding-left: 9rem;
+}
+
+.pp{
+    padding-right: 8rem;
+}
+.duct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+.duct_item img{
+    height: 25em;
+    width: 17rem;
+    transition: 1s  ease-in;
+    
+    
+
+}
+
+
+.duct_item {
+    margin-top: 5rem;
+    transition: 1s  ease;
+
+}
+.duct_hh{
+    padding-bottom: -2rem;
+}
+
+svg{
+ color: red;
+ cursor: pointer;
+}
+.duct_item:hover{
+    transform: scale(0.5);
+    
+}
+
+
+.num p{
+    border: 2px solid red;
+    width: 4rem;
+    height: 3rem;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+    justify-content: space-around;
+    font-size: 1.8rem;
+    font-weight: 500;
+    cursor: pointer;
+
+    
+}
+.num{
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
+.num p:hover{
+    background-color: rgb(232, 68, 9);
+}
+
+.footer{
+    margin-top: 4rem;
+    min-height: 50vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dd h1{
+    color: white;
+    font-size: 1rem;
+}
+.mm img{
+    height: 2rem;
+    
+}
+.aa img{
+    margin-top: 1.3rem;
+}
+
+.mm{
+    padding-top: 2rem;
+    padding-left: 0.3rem;
+}
+
+.dd{
+    padding-top: 3rem;
+    
+}
+
+.dd p{
+    color: rgba(255, 255, 255, 0.397);
+    text-align: center;
+}
+
+.ss{
+
+}
+
+.ss h1, li{
+    color: white;
+}
+
+.ff{
+    padding-top: 2rem;
+}
+.ff li{
+    list-style: none;
+}
+.ss h1{
+    font-size: 1.2rem;
+}
+.li{
+    padding-top: 2rem;
+}
+.li li{
+    color: rgba(255, 255, 255, 0.397);
+}
+
+footer p{
+    color: white ;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.fot {
+    /* min-height: 30vh; */
+   
+    /* width: 100%; */
+    margin-top: 133rem;
+}
+hr{
+    color: black;
+    margin: 0 3rem;
+    
+}
+
